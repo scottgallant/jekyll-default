@@ -2,7 +2,8 @@
 title: Image test 3
 date: '2017-07-14T07:49:45+00:00'
 image: "/front-matter-2/fist-pump.png"
-gallery: []
+gallery:
+- "/front-matter-1/960x0.jpg"
 ---
 
 
