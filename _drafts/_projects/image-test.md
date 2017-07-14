@@ -1,6 +1,7 @@
 ---
 date: '2017-07-14T15:22:19+00:00'
 gallery:
+- "/front-matter-1/cabin-snow.jpg"
 - "/front-matter-1/20028_10152992618907737_1999267906293938013_n.jpg"
 image: "/front-matter-1/cabin-2.jpg"
 title: image test
