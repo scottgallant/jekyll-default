@@ -14,9 +14,9 @@ this_is_a_big_text_area: |-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit.
 title: 'Sortable list select '
 sortable_list_with_data:
-- one
-- three
 - Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio
   sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
   nibh, ut fermentum massa justo sit amet risus.
+- one
+- three
 ---
