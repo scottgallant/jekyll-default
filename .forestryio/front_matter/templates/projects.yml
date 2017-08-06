@@ -1,0 +1,20 @@
+---
+pages:
+- _projects/image-test-3.md
+- _projects/image-test-2.md
+- _projects/image-test.md
+hide_body: false
+fields:
+- type: boolean
+  label: Image
+  name: image
+- type: boolean
+  name: gallery
+  label: Gallery
+- type: boolean
+  name: hello
+  label: hello
+  fields:
+  - type: boolean
+    label: image
+    name: image
