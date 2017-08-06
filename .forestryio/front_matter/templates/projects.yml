@@ -1,20 +1,21 @@
 ---
 pages:
+- _projects/test.md
 - _projects/image-test-3.md
 - _projects/image-test-2.md
 - _projects/image-test.md
 hide_body: false
 fields:
-- type: boolean
+- type: file
   label: Image
   name: image
-- type: boolean
+- type: image_gallery
   name: gallery
   label: Gallery
-- type: boolean
+- type: field_group
   name: hello
   label: hello
   fields:
-  - type: boolean
+  - type: file
     label: image
     name: image
