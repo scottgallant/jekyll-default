@@ -6,26 +6,26 @@ pages:
 - _projects/image-test.md
 hide_body: false
 fields:
-- type: file
+- type: boolean
   label: Image
   name: image
-- type: image_gallery
+- type: boolean
   name: gallery
   label: Gallery
-- type: field_group
+- type: boolean
   name: hello
   label: hello
   fields:
-  - type: file
+  - type: boolean
     label: image
     name: image
-- type: field_group_list
+- type: boolean
   name: repeat_group
   label: repeat group
   fields:
-  - type: file
+  - type: boolean
     name: image
     label: image
-- type: tag_list
+- type: boolean
   name: tag_test
   label: Tag test
