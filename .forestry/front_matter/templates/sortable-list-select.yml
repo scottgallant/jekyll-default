@@ -1,0 +1,72 @@
+---
+pages:
+- _posts/2017-08-01-sortable-list-select.md
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: textarea
+  name: this_is_a_big_text_area
+  label: This is a big text area
+  description: Write a description here
+  default: |
+    doem asdlksaf
+
+    asdfasdf
+- type: list
+  name: sortable_list_select
+  label: Related Posts
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: posts
+  description: this is information
+  default:
+  - _posts/2017-03-26-filename-test.md
+  - _posts/2017-08-01-sortable-list-select.md
+- type: tag_list
+  label: Tag me
+  name: tag_me
+  default:
+  - asdf
+- type: list
+  name: sortable_list_with_data
+  label: Sortable list with data
+  config:
+    use_select: true
+    source:
+      type: simple
+    options:
+    - one
+    - two
+    - three
+    - four
+    - Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
+      odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
+      nibh, ut fermentum massa justo sit amet risus.
+  default:
+  - four
+  - Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
+    odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
+    nibh, ut fermentum massa justo sit amet risus.
+- type: list
+  name: list_of_things
+  label: list of things
+  config:
+    source:
+      type: datafiles
+  default:
+  - three
+  - two
+  - one
+- type: tag_list
+  default:
+  - one
+  - two
+  - three
+  - this is a long tag wow look at this
+- type: tag_list
+  label: label
+  name: onen
