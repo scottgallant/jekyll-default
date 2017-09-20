@@ -1,7 +1,7 @@
 ---
 pages:
-- _projects/cat.md
 - _posts/wysiwyg-field.md
+- _projects/cat.md
 hide_body: true
 fields:
 - type: textarea
