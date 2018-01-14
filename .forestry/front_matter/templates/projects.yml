@@ -1,0 +1,31 @@
+---
+pages:
+- _projects/test.md
+- _projects/image-test-3.md
+- _projects/image-test-2.md
+- _projects/image-test.md
+hide_body: false
+fields:
+- type: file
+  label: Image
+  name: image
+- type: image_gallery
+  name: gallery
+  label: Gallery
+- type: field_group
+  name: hello
+  label: hello
+  fields:
+  - type: file
+    label: image
+    name: image
+- type: field_group_list
+  name: repeat_group
+  label: repeat group
+  fields:
+  - type: file
+    name: image
+    label: image
+- type: tag_list
+  name: tag_test
+  label: Tag test

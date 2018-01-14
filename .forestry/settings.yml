@@ -1,9 +1,9 @@
 ---
-upload_path: "/uploads/:year:/:month:/:day:"
-frontmatter_file_url_template: "/uploads/:year:/:month:/:day:"
-body_file_url_template: "/uploads/:year:/:month:/:day:"
+upload_path: "/upload-folder"
+frontmatter_file_url_template: "/front-matter-2"
+body_file_url_template: "/body-2"
 new_page_extension: md
 auto_deploy: false
-admin_path: ''
+admin_path: 
 webhook_url: 
 collections: 
