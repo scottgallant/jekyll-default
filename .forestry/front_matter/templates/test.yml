@@ -1,0 +1,11 @@
+---
+pages:
+- _posts/image-test.md
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: datetime
+  name: date
+  label: Date
