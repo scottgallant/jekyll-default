@@ -1,9 +1,9 @@
 ---
 pages:
-- _projects/test.md
-- _projects/image-test-3.md
-- _projects/image-test-2.md
 - _projects/image-test.md
+- _projects/image-test-2.md
+- _projects/image-test-3.md
+- _projects/test.md
 hide_body: false
 fields:
 - type: file
